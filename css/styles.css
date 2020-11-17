@@ -24,7 +24,7 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Cormorant Garamond", serif;
   font-size: 1.6rem;
   line-height: 2rem;
 }
@@ -35,13 +35,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Staatliches", cursive;
   margin: 1rem 0;
 }
 
 h3 {
   font-size: 1.8rem;
-  font-weight: 400;
 }
 
 p {
@@ -104,6 +102,11 @@ img {
   color: white;
 }
 
+.mx-1 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 /* GENERIC */
 
 .article-author {
@@ -144,6 +147,7 @@ header ul li {
 
 nav {
   background: white;
+  font-weight: bold;
   padding: 1rem;
   display: flex;
   justify-content: space-between;
